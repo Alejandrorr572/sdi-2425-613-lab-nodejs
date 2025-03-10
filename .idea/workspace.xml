@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-8.1-Creación del proyecto Tienda Virtual.">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/.bin/mime.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/.bin/twigjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/.bin/twigjs.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/accepts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/array-flatten/array-flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/array-flatten/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/balanced-match/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/balanced-match/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/balanced-match/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/basic-auth/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/basic-auth/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/basic-auth/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/http-errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/setprototypeof/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/body-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/brace-expansion/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/brace-expansion/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/bytes/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/bytes/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/applyBind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/reflectApply.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/reflectApply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bind-apply-helpers/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bound/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bound/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bound/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/call-bound/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/concat-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/content-disposition/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/content-disposition/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/content-disposition/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/content-disposition/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/content-type/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/content-type/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/cookie-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/cookie-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/cookie-signature/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/cookie-signature/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/cookie-signature/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/cookie/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/cookie/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/debug/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/debug/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/debug/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/debug/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/debug/src/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/debug/src/inspector-log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/debug/src/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/depd/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/depd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/depd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/depd/lib/compat/callsite-tostring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/depd/lib/compat/event-listener-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/destroy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/destroy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/destroy/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/destroy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/dunder-proto/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/dunder-proto/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/dunder-proto/set.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/dunder-proto/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/dunder-proto/test/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/ee-first/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/ee-first/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-define-property/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-define-property/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-define-property/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-errors/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-errors/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-errors/ref.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-errors/ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-errors/syntax.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-errors/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-errors/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-errors/type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-errors/uri.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-object-atoms/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-object-atoms/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-object-atoms/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-object-atoms/RequireObjectCoercible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-object-atoms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-object-atoms/isObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-object-atoms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/es-object-atoms/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/escape-html/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/etag/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/etag/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/lib/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/lib/router/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/lib/router/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/cookie/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/cookie/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/http-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/http-errors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/express/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/finalhandler/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/finalhandler/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/finalhandler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/finalhandler/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/finalhandler/node_modules/on-finished/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/finalhandler/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/finalhandler/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/finalhandler/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/finalhandler/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/finalhandler/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/foreachasync/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/foreachasync/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/forwarded/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/forwarded/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/function-bind/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/function-bind/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/function-bind/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/function-bind/implementation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/function-bind/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/function-bind/test/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/function-bind/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/get-intrinsic/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/get-intrinsic/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/get-proto/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/get-proto/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/get-proto/Object.getPrototypeOf.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/get-proto/Object.getPrototypeOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/get-proto/Reflect.getPrototypeOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/gopd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/gopd/gOPD.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/gopd/gOPD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/gopd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/gopd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/has-symbols/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/has-symbols/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/has-symbols/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/has-symbols/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/has-symbols/shams.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/has-symbols/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/has-symbols/test/shams/core-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/has-symbols/test/shams/get-own-property-symbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/has-symbols/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/hasown/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/hasown/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/hasown/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/http-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/http-errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/iconv-lite/Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/iconv-lite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/iconv-lite/encodings/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/iconv-lite/encodings/tables/big5-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/iconv-lite/encodings/tables/cp936.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/ipaddr.js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/ipaddr.js/ipaddr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/ipaddr.js/lib/ipaddr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/_util/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/_util/util.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/c/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/c/math/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/c/stdio/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/golang/strings/Contains.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/golang/strings/Contains.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/golang/strings/Count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/golang/strings/Count.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/golang/strings/LastIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/golang/strings/LastIndex.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/golang/strings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/_helpers/_bc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/_helpers/_php_cast_int.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/_helpers/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_column.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_combine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_combine.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_count_values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_diff_key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_diff_ukey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_fill.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_fill_keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_filter.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_flip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_flip.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_intersect_key.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_intersect_uassoc.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_keys.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_map.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_merge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_multisort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_pop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_pop.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_push.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_rand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_rand.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_replace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_replace_recursive.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_search.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_shift.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_udiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_udiff.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_udiff_assoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_udiff_uassoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_uintersect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_uintersect.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_unique.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_unique.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_unshift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_unshift.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_walk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/array_walk_recursive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/arsort.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/asort.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/each.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/end.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/end.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/in_array.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/natsort.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/next.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/next.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/prev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/prev.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/rsort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/shuffle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/sizeof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/uasort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/uksort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/usort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/array/usort.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/bc/bcadd.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/bc/bcdiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/bc/bcmul.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/bc/bcmul.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/bc/bcscale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/bc/bcsub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/bc/bcsub.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/ctype/ctype_alnum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/ctype/ctype_alnum.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/ctype/ctype_digit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/ctype/ctype_digit.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/ctype/ctype_lower.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/ctype/ctype_print.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/ctype/ctype_punct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/ctype/ctype_upper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/ctype/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/date.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/gmmktime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/gmstrftime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/idate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/idate.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/mktime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/mktime.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/strftime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/datetime/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/exec/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/exec/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/filesystem/dirname.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/filesystem/dirname.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/filesystem/file_get_contents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/filesystem/file_get_contents.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/filesystem/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/filesystem/pathinfo.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/filesystem/realpath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/filesystem/realpath.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/funchand/call_user_func.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/funchand/create_function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/funchand/function_exists.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/funchand/get_defined_functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/i18n/i18n_loc_get_default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/i18n/i18n_loc_set_default.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/i18n/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/info/assert_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/info/getenv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/info/getenv.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/info/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/info/version_compare.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/json/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/json/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/json/json_decode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/json/json_decode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/json/json_encode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/acosh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/asin.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/bindec.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/ceil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/ceil.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/cos.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/cosh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/cosh.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/decbin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/dechex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/dechex.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/decoct.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/exp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/expm1.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/fmod.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/hypot.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/is_infinite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/lcg_value.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/lcg_value.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/log10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/log1p.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/log1p.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/max.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/octdec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/rand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/rand.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/sin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/sqrt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/sqrt.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/tan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/math/tan.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/misc/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/misc/pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/misc/pack.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/misc/uniqid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/net-gopher/gopher_parsedir.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/network/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/network/inet_ntop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/network/inet_pton.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/network/long2ip.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/network/setcookie.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/network/setrawcookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/network/setrawcookie.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/pcre/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/pcre/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/pcre/preg_match.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/pcre/preg_replace.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/pcre/sql_regcase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/addcslashes.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/chop.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/chr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/convert_cyr_string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/convert_uuencode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/convert_uuencode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/count_chars.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/crc32.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/echo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/explode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/explode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/get_html_translation_table.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/hex2bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/html_entity_decode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/htmlentities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/htmlentities.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/htmlspecialchars.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/implode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/join.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/levenshtein.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/localeconv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/ltrim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/ltrim.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/md5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/metaphone.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/money_format.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/nl2br.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/nl_langinfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/nl_langinfo.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/ord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/parse_str.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/quoted_printable_decode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/quoted_printable_encode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/quoted_printable_encode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/quotemeta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/rtrim.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/sha1_file.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/similar_text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/soundex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/sprintf.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/sscanf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/str_getcsv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/str_ireplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/str_ireplace.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/str_pad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/str_rot13.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/str_shuffle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/str_split.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strcasecmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strcasecmp.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strcmp.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strcoll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strcoll.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strcspn.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/stripos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/stripslashes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/stripslashes.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/stristr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strlen.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strnatcasecmp.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strnatcmp.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strpbrk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strpos.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strrev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strrpos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strrpos.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strspn.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strstr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strstr.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strtok.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strtolower.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/strtoupper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/substr_compare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/ucfirst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/ucfirst.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/strings/vprintf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/url/base64_decode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/url/base64_decode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/url/base64_encode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/url/parse_url.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/url/urldecode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/url/urldecode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/url/urlencode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/url/urlencode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/doubleval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/doubleval.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/empty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/intval.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_binary.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_bool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_bool.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_buffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_callable.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_double.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_float.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_float.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_int.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_long.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_long.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_null.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_null.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_numeric.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_numeric.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_scalar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_scalar.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/is_string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/isset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/print_r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/serialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/strval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/strval.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/unserialize.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/var/var_export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/xdiff/xdiff_string_patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/xdiff/xdiff_string_patch.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/xml/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/xml/utf8_decode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/xml/utf8_encode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/php/xml/utf8_encode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/python/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/python/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/python/string/ascii_lowercase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/python/string/ascii_lowercase.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/python/string/punctuation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/ruby/Math/acos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/locutus/ruby/Math/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/abs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/constants/maxArrayLength.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/constants/maxValue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/floor.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/isFinite.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/isInteger.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/isNegativeZero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/max.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/pow.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/pow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/math-intrinsics/sign.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/media-typer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/media-typer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/merge-descriptors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/merge-descriptors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/merge-descriptors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/merge-descriptors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/methods/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/methods/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/mime-db/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/mime-db/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/mime-db/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/mime-db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/mime-db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/mime-types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/mime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/mime/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/mime/src/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/mime/types.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/morgan/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/morgan/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/ms/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/negotiator/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/negotiator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/negotiator/lib/mediaType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/package-support.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/test/circular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/test/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/test/fakes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/test/fn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/test/holes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/test/indent-option.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/test/lowbyte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/test/undef.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/object-inspect/util.inspect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/on-finished/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/on-headers/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/on-headers/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/parseurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/parseurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/parseurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/path-to-regexp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/path-to-regexp/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/proxy-addr/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/proxy-addr/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/qs/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/qs/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/qs/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/qs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/qs/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/range-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/http-errors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/setprototypeof/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/setprototypeof/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/raw-body/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/safer-buffer/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/depd/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/encodeurl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/encodeurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/http-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/on-finished/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/on-finished/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/on-finished/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/send/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/serve-static/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/serve-static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-list/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-list/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-list/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-list/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-list/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-list/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-list/list.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-list/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-list/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-map/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-map/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-map/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-map/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-weakmap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-weakmap/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel-weakmap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/side-channel/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/toidentifier/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/toidentifier/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/docs/docco.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/docs/public/fonts/aller-bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/docs/public/fonts/aller-bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/docs/public/fonts/aller-light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/docs/public/fonts/aller-light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/docs/public/fonts/novecento-bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/docs/public/fonts/novecento-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/test-ext/checkout.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/twig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/type-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/type-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/unpipe/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/unpipe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/vary/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/vary/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/walk/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/walk/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/walk/lib/node-type-emitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/walk/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/index.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Alejandrorr572"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Alejandrorr572/sdi-2425-613-lab-nodejs",
+    "accountId": "93027673-f6d1-4255-9f46-4765f08e46a4"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2u8gnzDJ2L9pnba5gmE3bgvJfWI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.app.js.executor": "Debug",
+    "Node.js.hello-word-server.js.executor": "Debug",
+    "Node.js.www.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "22.14.0",
+    "javascript.nodejs.core.library.typings.version": "22.13.10",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Node.js.www">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/musicstoreapp/app.js" working-dir="$PROJECT_DIR$/musicstoreapp">
+      <method v="2" />
+    </configuration>
+    <configuration name="hello-word-server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hello-word-server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="www" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/musicstoreapp/bin/www" working-dir="$PROJECT_DIR$/musicstoreapp/bin">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.www" />
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.hello-word-server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="" />
+      <created>1741635787736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741635787736</updated>
+      <workItem from="1741635789617" duration="3639000" />
+    </task>
+    <task id="LOCAL-00001" summary="SDI-2425-613-8.1-Creación del proyecto Tienda Virtual.">
+      <option name="closed" value="true" />
+      <created>1741636544635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741636544635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SDI-2425-613-8.1-Creación del proyecto Tienda Virtual." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-8.1-Creación del proyecto Tienda Virtual." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
