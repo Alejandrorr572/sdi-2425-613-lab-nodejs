@@ -20,11 +20,9 @@
 
             <div class="col-sm-10">
                 <select class="form-control" id="role" name="role">
-                    <option value="Cantante">Cantante</option>
-                    <option value="Trompetista">Trompetista</option>
-                    <option value="Violinista">Violinista</option>
-                    <option value="Saxofonista">Saxofonista</option>
-                    <option value="Pianista">Pianista</option>
+                    {% for role in roles %}
+                    <option value={{ role.value }}>{{ role.name }}</option>
+                    {% endfor %}
                 </select>
             </div>
         </div>
