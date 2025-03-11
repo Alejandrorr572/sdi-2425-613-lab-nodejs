@@ -57,9 +57,9 @@ module.exports = function (app) {
 
         let response = '';
 
-        response += (name != null) ? 'Nombre: ' + name + '<br>' : 'Nombre no definido' + '<br>';
-        response += (group != null) ? 'Grupo: ' + group + '<br>' : 'Grupo no definido' + '<br>';
-        response += (role != null) ? 'Rol: ' + role + '<br>' : 'Rol no definido' + '<br>';
+        response += (name != null && typeof(name) !== undefined && name !== '') ? 'Nombre: ' + name + '<br>' : 'Nombre no definido' + '<br>';
+        response += (group != null && typeof(group) !== undefined  && group !== '') ? 'Grupo: ' + group + '<br>' : 'Grupo no definido' + '<br>';
+        response += (role != null && typeof(role) !== undefined  && role !== '') ? 'Rol: ' + role + '<br>' : 'Rol no definido' + '<br>';
 
         res.send(response);
     });
