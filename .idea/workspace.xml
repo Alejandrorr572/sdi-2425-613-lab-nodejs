@@ -5,23 +5,274 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-8.3-División de las rutas en módulos, peticiones GET y parámetros.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/buy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/images/song1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/publication.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/song.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/AwaitValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/OverloadYield.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/applyDecoratedDescriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/applyDecs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/applyDecs2203.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/applyDecs2203R.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/applyDecs2301.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/applyDecs2305.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/applyDecs2311.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/arrayLikeToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/arrayWithHoles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/assertClassBrand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/assertThisInitialized.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/asyncGeneratorDelegate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/asyncIterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/asyncToGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/awaitAsyncGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/callSuper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/checkInRHS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/checkPrivateRedeclaration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classApplyDescriptorDestructureSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classApplyDescriptorGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classApplyDescriptorSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classCallCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classCheckPrivateStaticAccess.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classCheckPrivateStaticFieldDescriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classExtractFieldDescriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classNameTDZError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateFieldDestructureSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateFieldGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateFieldGet2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateFieldInitSpec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateFieldLooseBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateFieldLooseKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateFieldSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateFieldSet2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateGetter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateMethodGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateMethodInitSpec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateMethodSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classPrivateSetter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classStaticPrivateFieldDestructureSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classStaticPrivateFieldSpecGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classStaticPrivateFieldSpecSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classStaticPrivateMethodGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/classStaticPrivateMethodSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/construct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/createClass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/createForOfIteratorHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/createForOfIteratorHelperLoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/createSuper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/decorate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/defineAccessor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/defineEnumerableProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/defineProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/dispose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/AwaitValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/OverloadYield.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/applyDecs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/applyDecs2203.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/applyDecs2203R.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/applyDecs2301.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/applyDecs2305.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/applyDecs2311.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/assertClassBrand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/asyncGeneratorDelegate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/asyncIterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/awaitAsyncGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/callSuper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/checkInRHS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/checkPrivateRedeclaration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classApplyDescriptorDestructureSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classApplyDescriptorGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classApplyDescriptorSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classCallCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classCheckPrivateStaticAccess.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classCheckPrivateStaticFieldDescriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classExtractFieldDescriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classNameTDZError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateFieldDestructureSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateFieldGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateFieldGet2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateFieldInitSpec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateFieldLooseBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateFieldLooseKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateFieldSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateFieldSet2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateGetter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateMethodGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateMethodInitSpec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateMethodSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classPrivateSetter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classStaticPrivateFieldDestructureSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classStaticPrivateFieldSpecGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classStaticPrivateFieldSpecSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classStaticPrivateMethodGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/classStaticPrivateMethodSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/construct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/createClass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelperLoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/createSuper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/decorate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/defineAccessor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/defineEnumerableProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/defineProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/dispose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/extends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/get.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/identity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/importDeferProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/instanceof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/interopRequireDefault.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/interopRequireWildcard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/isNativeFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/isNativeReflectConstruct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/iterableToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/jsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/maybeArrayLike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/newArrowCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/nonIterableRest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/nullishReceiverError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/objectDestructuringEmpty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/objectSpread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/objectSpread2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/readOnlyError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/setFunctionName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/skipFirstGeneratorNext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/slicedToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/superPropBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/superPropGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/superPropSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteralLoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/tdz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/temporalRef.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/temporalUndefined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/toArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/toPrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/toPropertyKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/toSetter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/typeof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/using.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/usingCtx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/wrapAsyncGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/wrapNativeSuper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/wrapRegExp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/esm/writeOnlyError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/extends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/get.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/getPrototypeOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/identity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/importDeferProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/inheritsLoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/initializerDefineProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/initializerWarningHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/instanceof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/interopRequireDefault.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/interopRequireWildcard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/isNativeFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/iterableToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/jsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/maybeArrayLike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/newArrowCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/nonIterableRest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/nonIterableSpread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/nullishReceiverError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/objectSpread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/objectSpread2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/objectWithoutProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/readOnlyError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/regeneratorRuntime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/setFunctionName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/setPrototypeOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/skipFirstGeneratorNext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/slicedToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/superPropBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/superPropGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/superPropSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/taggedTemplateLiteralLoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/tdz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/temporalRef.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/temporalUndefined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/toArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/toConsumableArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/toPrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/toPropertyKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/toSetter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/typeof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/using.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/usingCtx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/wrapAsyncGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/wrapNativeSuper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/wrapRegExp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/helpers/writeOnlyError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/@babel/runtime/regenerator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/regenerator-runtime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/regenerator-runtime/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/regenerator-runtime/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/regenerator-runtime/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/regenerator-runtime/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/.github/workflows/tests.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/ASYNC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/node/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.exports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.expression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.expression.operator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.lib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.loader.ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.loader.fs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.parser.source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.parser.twig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/src/twig.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/twig.min.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/node_modules/twig/twig.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/add.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/shop.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +284,28 @@
       <list>
         <option value="package.json" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Alejandrorr572"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Alejandrorr572&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Alejandrorr572/sdi-2425-613-lab-nodejs",
-    "accountId": "93027673-f6d1-4255-9f46-4765f08e46a4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Alejandrorr572/sdi-2425-613-lab-nodejs&quot;,
+    &quot;accountId&quot;: &quot;93027673-f6d1-4255-9f46-4765f08e46a4&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2u8gnzDJ2L9pnba5gmE3bgvJfWI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,6 +314,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Node.js.app.js.executor": "Debug",
     "Node.js.hello-word-server.js.executor": "Debug",
     "Node.js.www.executor": "Run",
@@ -83,6 +336,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\views" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public\images" />
     </key>
