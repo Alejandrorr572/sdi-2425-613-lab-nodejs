@@ -64,6 +64,24 @@ module.exports = function (app) {
         res.send(response);
     });
 
+    app.get('/authors/filter/:role', function (req, res) {
+        let authors = [
+            { "name": "Javier", "group": "Ayiyiyi", "role": "Trompetista" },
+            { "name": "Germán", "group": "Orslok", "role": "Saxofonista" },
+            { "name": "Padua", "group": "Kidd Keo", "role": "Cantante" },
+            { "name": "Luis", "group": "Random Band", "role": "Trompetista" }
+        ];
+
+        let filteredAuthors = authors.filter(author => author.role.toLowerCase() === req.params.role.toLowerCase());
+
+        let response = {
+            seller: 'Autores filtrados',
+            authors: filteredAuthors
+        };
+
+        res.render("authors/authors.twig", response);
+    });
+
     app.get('/author*', function (req, res) {
         res.redirect('/authors');
     });

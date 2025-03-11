@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-sesion8-ejercicio-complementario1">
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/authors/add.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/authors/add.twig" afterDir="false" />
-    </list>
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-sesion8-ejercicio-complementario2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741635787736</updated>
       <workItem from="1741635789617" duration="10504000" />
-      <workItem from="1741688100499" duration="2713000" />
+      <workItem from="1741688100499" duration="3017000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-613-8.1-Creación del proyecto Tienda Virtual.">
       <option name="closed" value="true" />
@@ -160,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741690304534</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SDI-2425-613-sesion8-ejercicio-complementario2">
+      <option name="closed" value="true" />
+      <created>1741691100019</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741691100019</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +177,8 @@
     <MESSAGE value="SDI-2425-613-8.3-División de las rutas en módulos, peticiones GET y parámetros." />
     <MESSAGE value="SDI-2425-613-8.5-Vistas y motores de plantillas." />
     <MESSAGE value="SDI-2425-613-sesion8-ejercicio-complementario1" />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-sesion8-ejercicio-complementario1" />
+    <MESSAGE value="SDI-2425-613-sesion8-ejercicio-complementario2" />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-sesion8-ejercicio-complementario2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
