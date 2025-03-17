@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-8.3-División de las rutas en módulos, peticiones GET y parámetros.">
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-9.1-Acceso a datos con Mongodb desde Node.js.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -145,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741642229993</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SDI-2425-613-9.1-Acceso a datos con Mongodb desde Node.js.">
+      <option name="closed" value="true" />
+      <created>1742254714784</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742254714784</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +161,8 @@
     <MESSAGE value="SDI-2425-613-8.1-Creación del proyecto Tienda Virtual." />
     <MESSAGE value="SDI-2425-613-8.2-Express, depuración y variables de entorno." />
     <MESSAGE value="SDI-2425-613-8.3-División de las rutas en módulos, peticiones GET y parámetros." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-8.3-División de las rutas en módulos, peticiones GET y parámetros." />
+    <MESSAGE value="SDI-2425-613-9.1-Acceso a datos con Mongodb desde Node.js." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-9.1-Acceso a datos con Mongodb desde Node.js." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
