@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-9.1-Acceso a datos con Mongodb desde Node.js.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-9.2-Arquitectura para el acceso a datos.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/add.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/add.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +81,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\views\songs" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\views" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public\images" />
@@ -151,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742254714784</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SDI-2425-613-9.2-Arquitectura para el acceso a datos.">
+      <option name="closed" value="true" />
+      <created>1742255486629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742255486629</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +176,8 @@
     <MESSAGE value="SDI-2425-613-8.2-Express, depuración y variables de entorno." />
     <MESSAGE value="SDI-2425-613-8.3-División de las rutas en módulos, peticiones GET y parámetros." />
     <MESSAGE value="SDI-2425-613-9.1-Acceso a datos con Mongodb desde Node.js." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-9.1-Acceso a datos con Mongodb desde Node.js." />
+    <MESSAGE value="SDI-2425-613-9.2-Arquitectura para el acceso a datos." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-9.2-Arquitectura para el acceso a datos." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

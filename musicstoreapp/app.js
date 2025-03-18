@@ -5,6 +5,12 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var app = express();
+let fileUpload = require('express-fileupload');
+app.use(fileUpload({
+  limits: { fileSize: 50 * 1024 * 1024 },
+  createParentPath: true
+}));
+app.set('uploadPath', __dirname);
 
 let bodyParser = require('body-parser');
 app.use(bodyParser.json());
@@ -13,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const{MongoClient} = require("mongodb");
-const connectionStrings = 'mongodb+srv://admin:RPcfP1AHNJmitFpO@musicstoreapp.8ukvf.mongodb.net/?retryWrites=true&w=majority&appName=musicstoreapp ';
+const connectionStrings = 'mongodb+srv://admin:RPcfP1AHNJmitFpO@musicstoreapp.8ukvf.mongodb.net/?retryWrites=true&w=majority&appName=musicstoreapp';
 const dbClient = new MongoClient(connectionStrings);
 let songsRepository = require("./repositories/songsRepository.js");
 songsRepository.init(app, dbClient);
