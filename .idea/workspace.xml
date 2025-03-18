@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-9.2-Arquitectura para el acceso a datos.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" afterDir="false" />
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-9.3-Subida a ficheros y gestión de colecciones.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/repositories/usersRepository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/login.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/signup.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/add.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/add.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742255486629</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SDI-2425-613-9.3-Subida a ficheros y gestión de colecciones.">
+      <option name="closed" value="true" />
+      <created>1742261562695</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742261562695</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +185,8 @@
     <MESSAGE value="SDI-2425-613-8.3-División de las rutas en módulos, peticiones GET y parámetros." />
     <MESSAGE value="SDI-2425-613-9.1-Acceso a datos con Mongodb desde Node.js." />
     <MESSAGE value="SDI-2425-613-9.2-Arquitectura para el acceso a datos." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-9.2-Arquitectura para el acceso a datos." />
+    <MESSAGE value="SDI-2425-613-9.3-Subida a ficheros y gestión de colecciones." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-9.3-Subida a ficheros y gestión de colecciones." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
