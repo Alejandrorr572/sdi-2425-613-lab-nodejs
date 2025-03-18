@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-sesion8-ejercicio-complementario3">
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-9.4-Registro de usuario, autenticación y uso de sesión.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/userAudiosRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/userSessionRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/publications.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/edit.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/authors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="EjerciciosComplementarios" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,9 +50,6 @@
     &quot;accountId&quot;: &quot;93027673-f6d1-4255-9f46-4765f08e46a4&quot;
   }
 }</component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -55,30 +59,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Node.js.app.js.executor": "Debug",
-    "Node.js.hello-word-server.js.executor": "Debug",
-    "Node.js.www.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "EjerciciosComplementarios",
-    "javascript.nodejs.core.library.configured.version": "22.14.0",
-    "javascript.nodejs.core.library.typings.version": "22.13.10",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Node.js.app.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.hello-word-server.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.www.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.14.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.13.10&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\views\songs" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\views" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public\images" />
@@ -97,8 +102,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.www" />
-        <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.hello-word-server.js" />
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.www" />
+        <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +126,6 @@
       <option name="presentableId" value="Default" />
       <updated>1741635787736</updated>
       <workItem from="1741635789617" duration="10504000" />
-      <workItem from="1741688100499" duration="4626000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-613-8.1-Creación del proyecto Tienda Virtual.">
       <option name="closed" value="true" />
@@ -145,37 +151,37 @@
       <option name="project" value="LOCAL" />
       <updated>1741642229993</updated>
     </task>
-    <task id="LOCAL-00004" summary="SDI-2425-613-8.5-Vistas y motores de plantillas.">
+    <task id="LOCAL-00004" summary="SDI-2425-613-9.1-Acceso a datos con Mongodb desde Node.js.">
       <option name="closed" value="true" />
-      <created>1741655529036</created>
+      <created>1742254714784</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1741655529036</updated>
+      <updated>1742254714784</updated>
     </task>
-    <task id="LOCAL-00005" summary="SDI-2425-613-sesion8-ejercicio-complementario1">
+    <task id="LOCAL-00005" summary="SDI-2425-613-9.2-Arquitectura para el acceso a datos.">
       <option name="closed" value="true" />
-      <created>1741690304534</created>
+      <created>1742255486629</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1741690304534</updated>
+      <updated>1742255486629</updated>
     </task>
-    <task id="LOCAL-00006" summary="SDI-2425-613-sesion8-ejercicio-complementario2">
+    <task id="LOCAL-00006" summary="SDI-2425-613-9.3-Subida a ficheros y gestión de colecciones.">
       <option name="closed" value="true" />
-      <created>1741691100019</created>
+      <created>1742261562695</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1741691100019</updated>
+      <updated>1742261562695</updated>
     </task>
-    <task id="LOCAL-00007" summary="SDI-2425-613-sesion8-ejercicio-complementario3">
+    <task id="LOCAL-00007" summary="SDI-2425-613-9.4-Registro de usuario, autenticación y uso de sesión.">
       <option name="closed" value="true" />
-      <created>1741691368097</created>
+      <created>1742263366705</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1741691368097</updated>
+      <updated>1742263366705</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
@@ -187,11 +193,11 @@
     <MESSAGE value="SDI-2425-613-8.1-Creación del proyecto Tienda Virtual." />
     <MESSAGE value="SDI-2425-613-8.2-Express, depuración y variables de entorno." />
     <MESSAGE value="SDI-2425-613-8.3-División de las rutas en módulos, peticiones GET y parámetros." />
-    <MESSAGE value="SDI-2425-613-8.5-Vistas y motores de plantillas." />
-    <MESSAGE value="SDI-2425-613-sesion8-ejercicio-complementario1" />
-    <MESSAGE value="SDI-2425-613-sesion8-ejercicio-complementario2" />
-    <MESSAGE value="SDI-2425-613-sesion8-ejercicio-complementario3" />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-sesion8-ejercicio-complementario3" />
+    <MESSAGE value="SDI-2425-613-9.1-Acceso a datos con Mongodb desde Node.js." />
+    <MESSAGE value="SDI-2425-613-9.2-Arquitectura para el acceso a datos." />
+    <MESSAGE value="SDI-2425-613-9.3-Subida a ficheros y gestión de colecciones." />
+    <MESSAGE value="SDI-2425-613-9.4-Registro de usuario, autenticación y uso de sesión." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-9.4-Registro de usuario, autenticación y uso de sesión." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
