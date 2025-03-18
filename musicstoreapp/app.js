@@ -34,6 +34,13 @@ const usersRepository = require("./repositories/usersRepository.js");
 usersRepository.init(app, dbClient);
 require("./routes/users.js")(app, usersRepository);
 
+const userSessionRouter = require('./routes/userSessionRouter');
+const userAudiosRouter = require('./routes/userAudiosRouter');
+app.use("/songs/add",userSessionRouter);
+app.use("/publications",userSessionRouter);
+app.use("/audios/",userAudiosRouter);
+app.use("/shop/",userSessionRouter);
+
 var indexRouter = require('./routes/index');
 //var usersRouter = require('./routes/users');
 let songsRepository = require("./repositories/songsRepository.js");
