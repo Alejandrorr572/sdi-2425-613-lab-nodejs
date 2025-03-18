@@ -1,0 +1,33 @@
+{% extends "layout.twig" %}
+
+{% block title %} Mis Favoritos – uoMusic {% endblock %}
+
+{% block main_container %}
+    <h2>Mis Canciones Favoritas</h2>
+
+    <div class="row">
+        {% for favorite in favorites %}
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                <div style="width:200px">
+                    <a href="/songs/{{ favorite.songId }}">
+                        <img src="/covers/{{ favorite.songId }}.png" alt="cover"/>
+                        <div>{{ favorite.title }} </div>
+                        <div class="small">{{ favorite.userEmail }} </div>
+                        <div class="text-right">{{ favorite.price }} €</div>
+                        <div class="text-muted small">Añadido el: {{ favorite.dateAdded }}</div>
+                    </a>
+                    <form method="post" action="/songs/favorites/delete/{{ favorite.songId }}">
+                        <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                    </form>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <hr>
+    <div class="text-right">
+        <h3>Total: {{ totalPrice }} €</h3>
+    </div>
+{% endblock %}
+
+

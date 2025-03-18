@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-9.4-Registro de usuario, autenticación y uso de sesión.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/userAudiosRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/userSessionRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/publications.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/edit.twig" afterDir="false" />
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/repositories/commentsRepository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/repositories/favoriteSongsRepository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/favorites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/favorites.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/shop.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +31,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="EjerciciosComplementarios" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +73,7 @@
     &quot;Node.js.www.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;EjerciciosComplementarios&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.14.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.13.10&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -105,7 +111,7 @@
         <item itemvalue="Node.js.hello-word-server.js" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.www" />
-        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.hello-word-server.js" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +132,8 @@
       <option name="presentableId" value="Default" />
       <updated>1741635787736</updated>
       <workItem from="1741635789617" duration="10504000" />
+      <workItem from="1742264904370" duration="57000" />
+      <workItem from="1742293267847" duration="6030000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-613-8.1-Creación del proyecto Tienda Virtual.">
       <option name="closed" value="true" />

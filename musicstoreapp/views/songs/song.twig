@@ -16,4 +16,36 @@
             </div>
         </div>
     </div>
+
+    <hr>
+
+    <h3>Comentarios</h3>
+
+    {% if comments %}
+        <ul class="list-group">
+            {% for comment in comments %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>{{ comment.author }}</strong> - {{ comment.text }}
+                    </div>
+                        <form action="/comments/delete/{{ comment._id }}" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                        </form>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No hay comentarios aún. ¡Sé el primero en comentar!</p>
+    {% endif %}
+
+    <hr>
+
+    <h4>Añadir un comentario</h4>
+    <form action="/comments/{{ song._id }}" method="post">
+        <div class="form-group">
+            <textarea name="text" class="form-control" rows="3" placeholder="Escribe tu comentario aquí..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Enviar comentario</button>
+    </form>
 {% endblock %}
+
