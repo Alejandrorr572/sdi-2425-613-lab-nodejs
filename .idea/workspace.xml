@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-9.4-Registro de usuario, autenticación y uso de sesión.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/userAudiosRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/userSessionRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/publications.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/edit.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/userAuthorRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/repositories/songsRepository.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/layout.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/publications.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/publications.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,7 @@
         <item itemvalue="Node.js.hello-word-server.js" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.www" />
-        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.hello-word-server.js" />
       </list>
     </recent_temporary>
   </component>
