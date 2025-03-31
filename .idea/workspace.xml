@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-11.1-SW API REST CRUD Canciones.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/routes/userTokenRouter.js" afterDir="false" />
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-11.2-SW API REST Autenticación.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/api/songsAPIv1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/api/songsAPIv1.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -223,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743451545980</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="SDI-2425-613-11.2-SW API REST Autenticación.">
+      <option name="closed" value="true" />
+      <created>1743452870231</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743452870231</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +287,8 @@
     <MESSAGE value="SDI-2425-613-10.3-Mensajes y alertas." />
     <MESSAGE value="SDI-2425-613-10.4-Sistema de compras." />
     <MESSAGE value="SDI-2425-613-11.1-SW API REST CRUD Canciones." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-11.1-SW API REST CRUD Canciones." />
+    <MESSAGE value="SDI-2425-613-11.2-SW API REST Autenticación." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-11.2-SW API REST Autenticación." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
