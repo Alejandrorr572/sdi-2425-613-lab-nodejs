@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-11.2-SW API REST Autenticación.">
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/client.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" afterDir="false" />
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-11.3-SW Cliente JQuery + AJAX.">
+      <change afterPath="$PROJECT_DIR$/musicstoreapp/public/javascripts/cookie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +81,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public\javascripts" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\routes\api" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\views\songs" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\views" />
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public" />
-      <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public\images" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.www">
@@ -232,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743452870231</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="SDI-2425-613-11.3-SW Cliente JQuery + AJAX.">
+      <option name="closed" value="true" />
+      <created>1743455019328</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743455019328</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +294,8 @@
     <MESSAGE value="SDI-2425-613-10.4-Sistema de compras." />
     <MESSAGE value="SDI-2425-613-11.1-SW API REST CRUD Canciones." />
     <MESSAGE value="SDI-2425-613-11.2-SW API REST Autenticación." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-11.2-SW API REST Autenticación." />
+    <MESSAGE value="SDI-2425-613-11.3-SW Cliente JQuery + AJAX." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-11.3-SW Cliente JQuery + AJAX." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
