@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-11.4-SW Cliente JQuery + AJAX (Ampliaciones).">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/views/songs/song.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-11.5-SW Consumir SW desde Node.js." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +82,7 @@
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.www">
+  <component name="RunManager" selected="Node.js.hello-word-server.js">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/musicstoreapp/app.js" working-dir="$PROJECT_DIR$/musicstoreapp">
       <method v="2" />
     </configuration>
@@ -101,8 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.www" />
         <item itemvalue="Node.js.hello-word-server.js" />
+        <item itemvalue="Node.js.www" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.www" />
         <item itemvalue="Node.js.hello-word-server.js" />
@@ -247,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743456181479</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="SDI-2425-613-11.5-SW Consumir SW desde Node.js.">
+      <option name="closed" value="true" />
+      <created>1743457452337</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1743457452337</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +306,8 @@
     <MESSAGE value="SDI-2425-613-11.2-SW API REST Autenticación." />
     <MESSAGE value="SDI-2425-613-11.3-SW Cliente JQuery + AJAX." />
     <MESSAGE value="SDI-2425-613-11.4-SW Cliente JQuery + AJAX (Ampliaciones)." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-11.4-SW Cliente JQuery + AJAX (Ampliaciones)." />
+    <MESSAGE value="SDI-2425-613-11.5-SW Consumir SW desde Node.js." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-11.5-SW Consumir SW desde Node.js." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
