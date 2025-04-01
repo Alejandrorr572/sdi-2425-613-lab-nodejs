@@ -13,11 +13,14 @@
     </thead>
     <tbody id="songsTableBody"></tbody>
   </table>
+  <div id="message" class="alert" style="display: none;">
+    <span id="message-text"></span>
+  </div>
 </div>
 <script>
   window.history.pushState("", "", "/apiclient/client.html?w=songs");
-  let selectedSongId;
-  let songs;
+  var selectedSongId;
+  var songs;
   function songDetail(_id) {
     selectedSongId = _id;
     $("#main-container").load("widget-detail.html");
@@ -34,7 +37,7 @@
         updateSongsTable(songs);
       },
       error: function (error) {
-        $("#main-container").load("widget-login.html");
+        //$("#main-container").load("widget-login.html");
       }
     });
   }
@@ -66,27 +69,49 @@
       type: "DELETE",
       data: {},
       dataType: 'json',
-      headers: {"token": token},
+      headers: { "token": token },
       success: function (response) {
         console.log("Canción eliminada: " + _id);
-        $("#" + _id).remove(); // eliminar el <tr> de la canción
+        $("#" + _id).remove();
+        showMessage("Canción eliminada correctamente.", "success");
       },
       error: function (error) {
-        $("#main-container").load("widget-login.html");
+        console.log("Error al eliminar canción: ", error);
+        showMessage("Error al eliminar la canción. Intenta nuevamente.", "error");
       }
     });
   }
 
+  function showMessage(message, type) {
+    const messageElement = $("#message");
+    const messageText = $("#message-text");
+
+    messageText.text(message);
+
+    if (type === "success") {
+      messageElement.removeClass("alert-danger").addClass("alert-success");
+    } else {
+      messageElement.removeClass("alert-success").addClass("alert-danger");
+    }
+
+    messageElement.show();
+
+    setTimeout(function () {
+      messageElement.hide();
+    }, 5000);
+  }
+
+
   $('#filter-byname').on('input', function(e) {
-    let filteredSongs = [];
-    let filterValue = $("#filter-byname").val();
+    var filteredSongs = [];
+    var filterValue = $("#filter-byname").val();
     filteredSongs = songs.filter(song =>
             song.title.toLowerCase().includes(filterValue.toLowerCase())
     );
     updateSongsTable(filteredSongs);
   });
 
-  let priceDesc = true;
+  var priceDesc = true;
   function sortByPrice() {
     if (priceDesc) {
       songs.sort(function (a, b) {
@@ -101,7 +126,7 @@
     priceDesc = !priceDesc //invertir ordenación
   }
 
-  let titleDesc = true;
+  var titleDesc = true;
   function sortByTitle() {
     if (titleDesc){
       songs.sort(function (a, b) {

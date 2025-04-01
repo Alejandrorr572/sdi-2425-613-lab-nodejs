@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-11.6-SW Servicio Memoria.">
+    <list default="true" id="e2ad50c8-bd7e-494c-aa76-64c8efd9e7d7" name="Changes" comment="SDI-2425-613-11.7-SW Cliente Java.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/public/apiclient/widget-songs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicstoreapp/routes/api/songsAPIv1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicstoreapp/routes/api/songsAPIv1.0.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +69,7 @@
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.14.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.13.10&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/IdeaProjects/sdi-2425-613-lab-nodejs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,7 +89,7 @@
       <recent name="C:\Users\Alex\IdeaProjects\sdi-2425-613-lab-nodejs\musicstoreapp\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.hello-word-server.js">
+  <component name="RunManager" selected="Node.js.www">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/musicstoreapp/app.js" working-dir="$PROJECT_DIR$/musicstoreapp">
       <method v="2" />
     </configuration>
@@ -121,6 +126,8 @@
       <option name="presentableId" value="Default" />
       <updated>1741635787736</updated>
       <workItem from="1741635789617" duration="10504000" />
+      <workItem from="1743458759024" duration="254000" />
+      <workItem from="1743499205241" duration="4551000" />
     </task>
     <task id="LOCAL-00001" summary="SDI-2425-613-8.1-Creación del proyecto Tienda Virtual.">
       <option name="closed" value="true" />
@@ -258,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743457772563</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="SDI-2425-613-11.7-SW Cliente Java.">
+      <option name="closed" value="true" />
+      <created>1743458999160</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1743458999160</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +333,8 @@
     <MESSAGE value="SDI-2425-613-11.4-SW Cliente JQuery + AJAX (Ampliaciones)." />
     <MESSAGE value="SDI-2425-613-11.5-SW Consumir SW desde Node.js." />
     <MESSAGE value="SDI-2425-613-11.6-SW Servicio Memoria." />
-    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-11.6-SW Servicio Memoria." />
+    <MESSAGE value="SDI-2425-613-11.7-SW Cliente Java." />
+    <option name="LAST_COMMIT_MESSAGE" value="SDI-2425-613-11.7-SW Cliente Java." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

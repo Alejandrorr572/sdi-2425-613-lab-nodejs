@@ -1,25 +1,31 @@
-<div id="widget-agregar" >
+<div id="widget-agregar">
   <div class="form-group">
     <label class="control-label col-sm-2" for="title-add">Nombre:</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" name="title-add"
              placeholder="Título de la canción" id="title-add" />
+      <small class="text-danger" id="error-title"></small>
     </div>
   </div>
+
   <div class="form-group">
     <label class="control-label col-sm-2" for="kind-add">Género:</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" name="kind-add"
              placeholder="Género de la canción" id="kind-add" />
+      <small class="text-danger" id="error-kind"></small>
     </div>
   </div>
+
   <div class="form-group">
     <label class="control-label col-sm-2" for="price-add">Precio (€):</label>
     <div class="col-sm-10">
       <input type="number" step="0.01" class="form-control" name="price-add"
              placeholder="2.50" id="price-add" />
+      <small class="text-danger" id="error-price"></small>
     </div>
   </div>
+
   <div class="col-sm-offset-2 col-sm-10">
     <button type="button" class="btn btn-primary" id="boton-add"
             onclick="widgetAddSong()">Nueva canción</button>
@@ -27,19 +33,44 @@
 </div>
 
 <script>
-  function widgetAddSong( ) {
+  function widgetAddSong() {
+    $("#error-title, #error-kind, #error-price").text("");
+
+    let title = $("#title-add").val().trim();
+    let kind = $("#kind-add").val().trim();
+    let price = $("#price-add").val().trim();
+
+    let valid = true;
+
+    if (title === "") {
+      $("#error-title").text("El nombre de la canción es obligatorio.");
+      valid = false;
+    }
+
+    if (kind === "") {
+      $("#error-kind").text("El género es obligatorio.");
+      valid = false;
+    }
+
+    if (price === "" || isNaN(price) || parseFloat(price) <= 0) {
+      $("#error-price").text("El precio debe ser un número positivo.");
+      valid = false;
+    }
+
+    if (!valid) return;
+
     $.ajax({
       url: URLbase + "/songs",
       type: "POST",
       data: {
-        title: $("#title-add").val(),
-        kind: $("#kind-add").val(),
-        price: $("#price-add").val()
+        title: title,
+        kind: kind,
+        price: price
       },
       dataType: 'json',
       headers: {"token": token},
       success: function (response) {
-        console.log(response); // <-- Prueba
+        console.log(response);
         $("#main-container").load("widget-songs.html");
       },
       error: function (error) {
